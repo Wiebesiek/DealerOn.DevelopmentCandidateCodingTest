@@ -26,7 +26,7 @@ public class GraphTests
         return Path.Combine(projectDirectory, "DefaultInput.txt");
     }
 
-    private Graph.Graph _initialiseGraph()
+    private static Graph.Graph _initialiseGraph()
     {
         var input = File.ReadAllText(_getTestFilePath());
         return new Graph.Graph(input);

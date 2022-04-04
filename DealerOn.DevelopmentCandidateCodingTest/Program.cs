@@ -3,7 +3,7 @@ using DealerOn.DevelopmentCandidateCodingTest.Utilities;
 
 var input = Environment.GetCommandLineArgs().Length > 1 ?
     File.ReadAllText(Environment.GetCommandLineArgs()[1]) : Prompts.GetInput();
-var graph = new Graph(input);   
+var graph = new Graph(input!);   
 
 // Question 1
 ParsingHelper.QuestionOutput(1, graph.GetRouteDistance(new []{'A', 'B', 'C'}).ToString());
