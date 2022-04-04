@@ -1,4 +1,4 @@
-DealerOn Developer Candidate Test
+DealerOn Development Candidate Test
 ==========
 Installation
 ----------------------
