@@ -1,12 +1,15 @@
 DealerOn Development Candidate Test
 ==========
+DealerOn take home test. 
+
 Installation
 ----------------------
-1. Clone the repository 
+1. Be sure to have [.Net 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) installed.
+2. Clone the repository 
     - `git clone git@github.com:wcascades/DealerOn.DevelopmentCandidateCodingTest.git`
-2. Perform dotnet restore
+3. Perform dotnet restore
     - `dotnet restore`
-3. Run the application
+4. Run the application
     - `dotnet run` --from the project directory
 
 Running the application
