@@ -68,8 +68,7 @@ public class QuestionTests : GraphTests
         Action act = () => Graph.GetRouteDistance(route);
         
         // Assert
-        act.Should().Throw<Exception>().WithMessage("No route found");
-        
+        act.Should().Throw<Exception>().WithMessage("NO SUCH ROUTE"); 
     }
 
     [Fact]

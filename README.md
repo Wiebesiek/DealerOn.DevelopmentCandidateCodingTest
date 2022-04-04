@@ -17,3 +17,7 @@ There are two ways to run the application:
    - This will run the application with the file specified.
    - To run the application with the supplied nodes in the pdf, supply the path to `DefaultInput.txt`
    
+Running the tests
+----------------------
+To run the tests provided:
+`dotnet test`
