@@ -20,4 +20,4 @@ There are two ways to run the application:
 Running the tests
 ----------------------
 To run the tests provided:
-`dotnet test`
+   - `dotnet test`
